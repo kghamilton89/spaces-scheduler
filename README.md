@@ -1,4 +1,4 @@
-# 🤗 Space Scheduler
+# 🤗 Spaces Scheduler
 
 [Hugging Face Spaces](https://huggingface.co/spaces) offer a simple way to host ML apps directly on the Hugging Face platform.
 
