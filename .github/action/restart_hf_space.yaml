@@ -2,7 +2,7 @@ name: Restart Hugging Face Space
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # Schedule runs every 15 minutes on random start second from 0 to 5.
+    - cron: '*/10 * * * *' # Configure schedule here
 
 jobs:
   restart-space:
