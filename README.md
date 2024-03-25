@@ -30,7 +30,7 @@ def restart_space():
 5. In the Repository Menu, follow the path `Settings > Secrets and keys > Actions`.
 6. On the Secrets tab, click New repository secret.
 7. Create a new repository secret called `HF_KEY`.
-8. Provide a [Hugging Face token](https://huggingface.co/settings/tokens) with `write` access from an account with permission to write to the target Space.
+8. Provide a [Hugging Face token](https://huggingface.co/settings/tokens) with `write` access from the account which owns the target Space.
 9. Navigate to `/.github/workflows/restart_hf_space.yaml`.
 10. Refer to `cron` schedule: `*/30 * * * *` and update it to your desired value. Please note, inducing rebuild too frequently can result in errored builds caused by compute throttling from Hugging Face. On a free-tier Gradio Space, schedule `*/10 * * * *` proved to be too frequent and hanging builds were observed.
 11. Commit your changes and that's it! Your rebuild scheduler is ready to go!
