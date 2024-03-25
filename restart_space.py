@@ -1,8 +1,8 @@
 from huggingface_hub import HfApi
 
 def restart_space():
-    token = "HF_TOKEN"
-    repo_id = "SPACE_ID"  # Example: "username/space-name"
+    token = os.environ['HF_TOKEN'] # Please navigate to Settings > Secrets and variables > Actions and define "HF_TOKEN".
+    repo_id = "DIBT-Russian/MPEP_Dashboard" #  Please replace this value with the name of your own Hugging Face Space.
 
     try:
         HfApi().restart_space(repo_id=repo_id, token=token)
