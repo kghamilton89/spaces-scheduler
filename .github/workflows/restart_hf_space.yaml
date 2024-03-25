@@ -2,7 +2,7 @@ name: Restart Hugging Face Space
 
 on:
   schedule:
-    - cron: '10 * * * *' # Runs at minute 10 once per hour
+    - cron: '*/30 * * * *' # Runs every 30 minutes
 
 jobs:
   restart-space:
@@ -20,6 +20,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install huggingface_hub
+          
       - name: Restart Hugging Face Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
