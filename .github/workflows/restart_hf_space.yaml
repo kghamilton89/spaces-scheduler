@@ -2,7 +2,7 @@ name: Restart Hugging Face Space
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # Schedule runs every 10 minutes
+    - cron: '10 * * * *' # Runs at minute 10 once per hour
 
 jobs:
   restart-space:
