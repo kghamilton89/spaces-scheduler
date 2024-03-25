@@ -1,3 +1,5 @@
+> Please note, this mechanism has been optimized by way of the following three commits: [1](https://huggingface.co/spaces/DIBT-Russian/MPEP_Dashboard/commit/7be166dc69cb857f28c9e78b2c81e741803ea740), [2](https://huggingface.co/spaces/DIBT-Russian/MPEP_Dashboard/commit/a39f9d0c8fe61ba5f2072542debfb790bd6e27f5), [3](https://huggingface.co/spaces/DIBT-Russian/MPEP_Dashboard/commit/ab83c6062d50883cd9b9321ea835739bbe5f1fb9). Whilst the core methodology remains viable, there is a more elegant way to implement this feature according to [this template](https://huggingface.co/spaces/davanstrien/restart/blob/main/app.py).
+
 # 🤗 Spaces Scheduler
 
 [Hugging Face Spaces](https://huggingface.co/spaces) offer a simple way to host ML apps directly on the Hugging Face platform.
