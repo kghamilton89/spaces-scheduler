@@ -1,4 +1,5 @@
 from huggingface_hub import HfApi
+import os
 
 def restart_space():
     token = os.environ['HF_TOKEN'] # Please navigate to Settings > Secrets and variables > Actions and define "HF_TOKEN".
