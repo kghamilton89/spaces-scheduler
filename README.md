@@ -1,7 +1,5 @@
 # 🤗 Spaces Scheduler
 
-> Please note, this mechanism has been optimized as a runtime solution. Whilst the core methodology remains viable, there is a more elegant way to implement this feature according to [this template](https://huggingface.co/spaces/davanstrien/restart/blob/main/app.py).
-
 [Hugging Face Spaces](https://huggingface.co/spaces) offer a simple way to host ML apps directly on the Hugging Face platform.
 
 The [MPEP initiative](https://github.com/huggingface/data-is-better-together/tree/main/prompt_translation), a part of the [DIBT project](https://huggingface.co/DIBT), identifed a use case wherein it would be desireable to have performance dashboards hosted in Spaces refresh on a schedule.
