@@ -24,7 +24,7 @@ def restart_space():
     repo_id = "DIBT-Russian/MPEP_Dashboard" #  Please replace this value with the name of your own Hugging Face Space.
 ```
 
-4. Modify `DIBT-Russian/MPEP_Dashbaord` to point to your Hugging Face Space using the syntax `{{USER OR ORGANIZATION}}/{{SPACE}}`.
+4. Modify `DIBT-Russian/MPEP_Dashbaord` to point to your Hugging Face Space using the syntax `{USER OR ORGANIZATION}/{SPACE}`.
 5. In the Repository Menu, follow the path `Settings > Secrets and keys > Actions`.
 6. On the Secrets tab, click New repository secret.
 7. Create a new repository secret called `HF_KEY`.
